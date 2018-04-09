@@ -36,7 +36,7 @@ apt-get update
 apt-get -y install locales && dpkg-reconfigure locales && locale-gen
 
 # Install Features
-apt-get -y install ntfs-3g owncloud-files mysql-server-
+apt-get -y install ntfs-3g owncloud-files mysql-server
 
 # If Apt-Get fails to run completely the rest of this isn't going to work...
 if [ $? -ne 0 ]
